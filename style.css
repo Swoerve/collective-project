@@ -43,6 +43,7 @@ main {
   flex-direction: column;
   height: 25em;
   border: solid;
+  border-radius: 10px;
 }
 #billboard h2 {
   border-bottom: dashed;
@@ -64,11 +65,17 @@ main {
 #student-flow {
   display: flex;
   flex-direction: column;
-  padding: 8px 0px 0px 0px;
+  padding: 45px 0px 0px 0px;
 }
 
 .student-card {
   width: 9em;
   height: 7em;
   border: solid;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+
+.student-card:hover {
+  transform: scale(1.05);
 }/*# sourceMappingURL=style.css.map */
