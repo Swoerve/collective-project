@@ -47,6 +47,7 @@ main {
 }
 #billboard h2 {
   border-bottom: dashed;
+  background-color: rgba(41, 56, 69, 0.3);
   margin-top: 0;
   margin-bottom: 0;
   padding: 4px 0 4px 4px;
@@ -74,6 +75,11 @@ main {
   border: solid;
   border-radius: 10px;
   transition: 0.4s;
+}
+
+.no-decoration {
+  width: 9em;
+  text-decoration: none;
 }
 
 .student-card:hover {
