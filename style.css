@@ -1,12 +1,12 @@
-.orange-sticker {
-  background-color: #f6b28d;
+.orange {
+  background: #f6b28d;
 }
 
-.yellow-sticker {
+.yellow {
   background-color: #fbff85;
 }
 
-.red-sticker {
+.red {
   background-color: #ec8394;
 }
 
@@ -26,12 +26,13 @@ h2, h3 {
 
 h3 {
   border-bottom: dashed;
-  padding: 4px;
+  padding: 0.3em;
   margin: 0;
 }
 
 p {
-  padding: 4px 4px 0 4px;
+  padding: 0.3em;
+  padding-bottom: 0;
   margin: 0;
   font-family: "Fira Sans", sans-serif;
   font-weight: 400;
@@ -67,12 +68,23 @@ main {
 }
 
 #sticker-page {
+  display: flex;
   padding: 8px 8px 0px 8px;
 }
 
-.news-sticker {
+.sticker {
+  margin: 5px;
   width: 7em;
   height: 7em;
+}
+.sticker h3 {
+  font-family: "Itim", cursive;
+  border: none;
+  font-weight: 500;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.sticker p {
+  font-family: "Itim", cursive;
 }
 
 #student-flow {
@@ -84,18 +96,19 @@ main {
 .student-card {
   width: 9em;
   height: 7em;
-  border: solid;
   border-radius: 10px;
   transition: 0.4s;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 1px 0px;
+}
+
+.student-card:hover {
+  transform: scale(1.05);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 12px 13px 1px;
 }
 
 .no-decoration {
   width: 9em;
   text-decoration: none;
-}
-
-.student-card:hover {
-  transform: scale(1.05);
 }
 
 .card-shadow {
