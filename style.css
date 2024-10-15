@@ -1,3 +1,15 @@
+.orange-sticker {
+  background-color: #f6b28d;
+}
+
+.yellow-sticker {
+  background-color: #fbff85;
+}
+
+.red-sticker {
+  background-color: #ec8394;
+}
+
 /*
 * {
   border: solid;
@@ -34,7 +46,8 @@ body {
 main {
   display: flex;
   flex-direction: column;
-  width: 50vw;
+  width: 55vw;
+  min-width: 600px;
   margin: 0 auto;
 }
 
@@ -60,7 +73,6 @@ main {
 .news-sticker {
   width: 7em;
   height: 7em;
-  border: solid;
 }
 
 #student-flow {
@@ -84,4 +96,8 @@ main {
 
 .student-card:hover {
   transform: scale(1.05);
+}
+
+.card-shadow {
+  box-shadow: rgba(0, 0, 0, 0.2) 0 0;
 }/*# sourceMappingURL=style.css.map */

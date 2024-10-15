@@ -6,6 +6,23 @@ $p-size: 16px;
 
 $student-card-size: 7em;
 $news-card-size: 7em;
+
+$orange: #f6b28dff;
+$red: #ec8394ff;
+$yellow: #fbff85ff;
+
+.orange-sticker {
+  background-color: $orange;
+}
+
+.yellow-sticker {
+  background-color: $yellow;
+}
+
+.red-sticker {
+  background-color: $red;
+}
+
 /*
 * {
   border: solid;
@@ -26,6 +43,7 @@ h3 {
   padding: 4px;
   margin: 0;
 }
+
 p {
   padding: 4px 4px 0 4px;
   margin: 0;
@@ -43,7 +61,8 @@ body {
 main {
   display: flex;
   flex-direction: column;
-  width: 50vw;
+  width: 55vw;
+  min-width: 600px;
   margin: 0 auto;
 }
 
@@ -70,7 +89,7 @@ main {
 .news-sticker {
  width: $news-card-size;
  height: $news-card-size;
- border: solid;
+//  border: solid;
 }
 
 #student-flow {
@@ -90,9 +109,13 @@ main {
 .no-decoration {
   width: 9em;
   text-decoration: none;
-}
 
+}
 
 .student-card:hover {
   transform: scale(1.05);
+}
+
+.card-shadow {
+  box-shadow: rgb(0, 0, 0, 0.2) 0 0;
 }
