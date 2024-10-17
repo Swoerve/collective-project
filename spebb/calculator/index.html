@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
+    <title>Calculator</title>
     <link href="./style.css" rel="stylesheet">
 </head>
 
@@ -12,7 +12,7 @@
 
     <div class="calc">
         <div class="calc-top">
-            <input type="" name="inputBox" value="">
+            <input id="inputBox" type="" name="inputBox" value=""/>
         </div>
         <div class="calc-main">
             <div class="main-top">
@@ -20,29 +20,29 @@
 
             </div>
             <div class="main-left">
-            <button type="button" onclick="calcInput()">1</button>
-            <button type="button" onclick="calcInput()">2</button>
-            <button type="button" onclick="calcInput()">3</button>
-            <button type="button" onclick="calcInput()">4</button>
-            <button type="button" onclick="calcInput()">5</button>
-            <button type="button" onclick="calcInput()">6</button>
-            <button type="button" onclick="calcInput()">7</button>
-            <button type="button" onclick="calcInput()">8</button>
-            <button type="button" onclick="calcInput()">9</button>
-            <button type="button" onclick="calcInput()">0</button>
-            <button type="button" onclick="calcInput()">.</button>
+            <button type="button" onclick="calcInput(this)">1</button>
+            <button type="button" onclick="calcInput(this)">2</button>
+            <button type="button" onclick="calcInput(this)">3</button>
+            <button type="button" onclick="calcInput(this)">4</button>
+            <button type="button" onclick="calcInput(this)">5</button>
+            <button type="button" onclick="calcInput(this)">6</button>
+            <button type="button" onclick="calcInput(this)">7</button>
+            <button type="button" onclick="calcInput(this)">8</button>
+            <button type="button" onclick="calcInput(this)">9</button>
+            <button type="button" onclick="calcInput(this)">0</button>
+            <button type="button" onclick="calcInput(this)">.</button>
             </div>
 
             <div class="main-right">
-                <button type="button" onclick="calcSides()">/</button>
-                <button type="button" onclick="calcSides()">*</button>
-                <button type="button" onclick="calcSides()">-</button>
-                <button type="button" onclick="calcSides()">+</button>
-                <button type="button" onclick="calcSides()">=</button>
+                <button type="button" onclick="calcOperator(this)">/</button>
+                <button type="button" onclick="calcOperator(this)">*</button>
+                <button type="button" onclick="calcOperator(this)">-</button>
+                <button type="button" onclick="calcOperator(this)">+</button>
+                <button type="button" onclick="calcOperator(this)">=</button>
             </div>
         </div>
     </div>
-    <script type="type/javascript" src="calculator.js"></script>
+    <script src="calculator.js"></script>
 </body>
 
 </html>
