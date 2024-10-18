@@ -1,0 +1,48 @@
+$bg: #fefae0;
+$dk: #283618;
+$mddk: #606c38;
+$lt: #dda15e;
+$mdlt: #bc6c25;
+
+* {
+  margin: 0;
+  border: 0;
+}
+
+header {
+  background-color: $mddk;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  h1 {
+
+  }
+}
+
+main {
+  background-color: $bg;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  img {
+    max-height: 300px;
+    width: auto;
+  }
+  #wordDisplay {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    background-color: $mddk;
+    height: 75px;
+
+    .letterContainer {
+      width: 50px;
+      height: 50px;
+      background-color: $lt;
+      border-radius: 7px;
+
+    }
+  }
+}
