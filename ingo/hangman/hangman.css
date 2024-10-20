@@ -10,6 +10,11 @@ header {
   align-items: center;
   height: 100px;
 }
+header h1 {
+  color: #fefae0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
 main {
   background-color: #fefae0;
   display: flex;
@@ -18,7 +23,8 @@ main {
 }
 main img {
   max-height: 300px;
-  width: auto;
+  width: 300px;
+  margin: auto;
 }
 main #wordDisplay {
   display: flex;
@@ -28,9 +34,21 @@ main #wordDisplay {
   background-color: #606c38;
   height: 75px;
 }
+main #wordDisplay button {
+  width: 100px;
+  height: 50px;
+  background-color: #dda15e;
+  border-radius: 7px;
+  font-size: xx-large;
+}
 main #wordDisplay .letterContainer {
   width: 50px;
   height: 50px;
   background-color: #dda15e;
   border-radius: 7px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+  font-size: xx-large;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }/*# sourceMappingURL=hangman.css.map */
