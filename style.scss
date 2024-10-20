@@ -10,6 +10,7 @@ $news-card-size: 7em;
 $orange: #f6b28dff;
 $red: #ec8394ff;
 $yellow: #fbff85ff;
+$dark: #222222;
 
 .orange-sticker {
   background-color: $orange;
@@ -94,12 +95,14 @@ main {
 
 #student-flow {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   padding: 45px 0px 0px 0px
+
 }
 
 .student-card {
   width: 9em;
+  margin-right: 1.5em;
   height: $student-card-size;
   border: solid;
   border-radius: 10px;
@@ -109,6 +112,7 @@ main {
 .no-decoration {
   width: 9em;
   text-decoration: none;
+  color: $dark;
 
 }
 
