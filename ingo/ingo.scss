@@ -1,5 +1,30 @@
-div {
-  width: 50px;
-  height: 50px;
-  background-color: blue;
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  header {
+    flex-grow: 1;
+  }
+
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 3;
+
+    div {
+      width: 200px;
+      height: 200px;
+      background-color: aliceblue;
+
+      a {
+        line-height: 2em;
+      }
+    }
+  }
+
+  footer {
+    flex-grow: 1;
+  }
 }
